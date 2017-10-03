@@ -27,13 +27,13 @@ class Model {
       this.notify();
 	}
 	decremento(index){
-      if(this.players[index].score > 0 ){
+      if(this.players[index].score >= 0 ){
 		    this.players[index].score --;
 		}
 		this.notify();
 	}
 	incremento(index){
-      if(this.players[index].score > 0 ){
+      if(this.players[index].score >= 0 ){
 		    this.players[index].score ++;
 		}
 		this.notify();
